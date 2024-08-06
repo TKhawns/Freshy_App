@@ -181,6 +181,10 @@ class _HomepageFormState extends State<HomepageForm> {
                                     margin: const EdgeInsets.only(top: 20),
                                     child: _buildBookingNow(screenWidth),
                                   ),
+                                  Container(
+                                    height: 140 + safeBotPadding,
+                                    color: Color(0XFFFEF2E4),
+                                  )
                                 ],
                               ))),
                     ),
